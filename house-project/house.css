@@ -1,0 +1,50 @@
+ body {
+position: relative;
+ }
+header {
+background-color:#f2f2f2;
+
+}
+header h1 ,h2{
+display: flex;
+font-family: serif;
+font-weight: 100;
+justify-content: flex-end;
+margin-right: 500px;
+ }
+ h1 {
+font-size: 60px;
+ }
+ h2 {
+color: #675a58
+
+ }
+
+ .intropic {
+position: relative;
+left: 450px;
+height: 550px;
+width: 1000px;
+align-items: center;
+}
+.h1first{
+position: absolute;
+left: 950px;
+font-size: 600px;
+}
+
+.about-us {
+height: 100px;
+width: 300px;
+position: absolute;
+left: 450px;
+top: 650px;
+background-color: white;
+padding: 50px;
+z-index: 1;
+}
+
+section {
+background-color: black;
+z-index: 1;
+}
